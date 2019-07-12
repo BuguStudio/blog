@@ -1,6 +1,6 @@
 # 44 道 JavaScript 谜题
 
-> 题目来自于 [JavaScript Puzzlers!](http://javascript-puzzlers.herokuapp.com/) 。下午花时间做了一遍，然后翻译成了中文并增加了一些个人解释。文章同步发布于【掘金】和微信公众号【布谷工作室】，公众号答案和解析位于下方的折叠部分，单击即可查看。
+> 题目来自于 [JavaScript Puzzlers!](http://javascript-puzzlers.herokuapp.com/) 。花时间做了一遍，然后翻译成了中文并增加了一些个人解释，翻译已经征得作者的授权。文章同步发布于【掘金】和微信公众号【布谷工作室】，公众号答案和解析位于下方的折叠部分，单击即可查看。
 
 
 
@@ -135,7 +135,7 @@ console.log('Value is ' + (val === 'smtg') ? 'Something' : 'Nothing');
 
 **答案： A**
 
-特别提醒：在数组没有初始值的情况下 `reduce` 将抛出 `TypeError`。
+`+` 运算符的优先级高于三目运算符，输出结果应该是 `Something`。
 
 
 
